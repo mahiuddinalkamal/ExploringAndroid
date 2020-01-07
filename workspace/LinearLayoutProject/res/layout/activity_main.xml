@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+   android:background="#FFFFFF" 
+    tools:context=".MainActivity" >
+ <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+         
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+
+     <LinearLayout
+            android:layout_width="140sp"
+            android:layout_height="match_parent"
+             android:background="#00A2EA">
+        </LinearLayout>
+
+     <LinearLayout
+             android:layout_width="70sp"
+            android:layout_height="match_parent"
+             android:background="#00A2EA"
+             android:layout_marginLeft="6sp" >
+        </LinearLayout>
+
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             android:background="#00A2EA"
+             android:layout_marginLeft="6sp">
+        </LinearLayout>
+
+    </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="284sp"
+     android:layout_height="90sp"
+     android:layout_marginTop="10sp"
+     android:background="#FFFFFF" >
+
+     <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:background="#ED1B24">
+        </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginLeft="5sp"
+               android:background="#ED1B24"
+               android:orientation="vertical" >
+
+        </LinearLayout>
+
+ </LinearLayout>
+
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal"
+           android:background="#FFFFFF"  >
+
+     <LinearLayout
+            android:layout_width="140sp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#25B14E" >
+        </LinearLayout>
+
+     
+        <LinearLayout
+            android:layout_width="70sp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:layout_marginLeft="5sp"
+            android:background="#25B14E">
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:layout_marginLeft="5sp"
+            android:background="#25B14E">
+        </LinearLayout>
+
+ </LinearLayout>
+
+ <LinearLayout
+    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:orientation="horizontal"
+           android:background="#FFFFFF"  >
+
+     <LinearLayout
+            android:layout_width="140sp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FF7F26" >
+        </LinearLayout>
+
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="6sp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:background="#FF7F26"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+               android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF7F26"
+                 android:layout_marginTop="6sp"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+        </LinearLayout>
+
+ </LinearLayout>
+ </LinearLayout>
+
+  

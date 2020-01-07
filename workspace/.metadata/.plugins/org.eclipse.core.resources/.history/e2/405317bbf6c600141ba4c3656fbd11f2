@@ -1,0 +1,34 @@
+package com.mak.dhkctginfo;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.TextView;
+
+
+
+public class SecondActivity extends Activity{
+TextView txtCity,txtArea,txtPopulation,txtMale,txtFemale;
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+	// TODO Auto-generated method stub
+	super.onCreate(savedInstanceState);
+	setContentView(R.layout.second_activity);
+	String value=getIntent().getExtras().getString("city");
+	 // Toast.makeText(getApplicationContext(), value, Toast.LENGTH_LONG).show();
+	 txtCity=(TextView)findViewById(R.id.textView1);
+	 txtArea=(TextView)findViewById(R.id.textView2);
+	 txtPopulation=(TextView)findViewById(R.id.textView3);
+	 txtMale=(TextView)findViewById(R.id.textView4);
+	 txtFemale=(TextView)findViewById(R.id.textView5);
+	 
+	
+	if(value.equals("DHAKA"))
+	{
+		
+	}
+	else {
+		
+		
+	}
+}
+}

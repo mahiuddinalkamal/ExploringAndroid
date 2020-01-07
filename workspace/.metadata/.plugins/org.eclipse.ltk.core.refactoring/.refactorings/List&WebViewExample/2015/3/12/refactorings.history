@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Change Layout" description="Change Layout" file="/List&amp;WebViewExample/res/layout/activity_list__web__main.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/List&amp;WebViewExample" sel-end="518" sel-start="0" stamp="1426386358430" type="android.widget.LinearLayout"/>
+</session>

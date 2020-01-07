@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      
+        android:text="this is text" />
+
+    <Button
+        android:id="@+id/btnSmall"
+        style="@style/CustomButtonStyle"
+        android:text="Small Font" />
+
+    <Button
+        android:id="@+id/btnLarge"
+        style="@style/CustomButtonStyle.Large"
+        android:text="Large Font" />
+
+</LinearLayout>
